@@ -1,0 +1,31 @@
+/* email.styles.css */
+.email-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #95dada;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 16px;
+    cursor: pointer;
+    -moz-osx-font-smoothing: grayscale;
+    backface-visibility: hidden;
+    transform: translateZ(0);
+    transition: transform 0.25s ease-out;
+    width: 320px;
+}
+
+.email-container:hover {
+    transform: scale(1.02);
+}
+
+.email-container.selected {
+    background-color: yellow !important;
+}
+
+.email-container.read {
+    background-color: rgb(220, 220, 220);
+}
+
+.email-container.unread {
+    background-color: rgb(58, 58, 58);
+}

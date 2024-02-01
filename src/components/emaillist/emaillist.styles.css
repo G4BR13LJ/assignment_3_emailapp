@@ -1,0 +1,14 @@
+.emaillist {
+    width: 100%;
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+    overflow-y: auto;
+}
+
+@media only screen and (min-width: 900px) {
+    .emaillist {
+        width: 33vw;
+    }
+}

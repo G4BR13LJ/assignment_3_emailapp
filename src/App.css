@@ -1,0 +1,12 @@
+/* App.css */
+.App {
+  text-align: center;
+}
+
+.banner-name { 
+  color: rgb(238, 61, 61);
+}
+
+.app-container {
+  display: flex;
+}
